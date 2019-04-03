@@ -1,0 +1,6 @@
+div.upl-list form, div.upl-list p { margin-bottom: 1em; }
+div.upl-list form img { display: inline; padding-left: 1em; padding-right: 1em; box-shadow: none; vertical-align: middle; border: 0 none; }
+div.upl-list ul { list-style: outside none none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+div.upl-list ul li { overflow: hidden; margin: 0 0 1.5em; }
+div.upl-list ul li:last-child { margin-bottom: 0; }
+.upl-list ul li img { width: 75px; height: 75px; }
