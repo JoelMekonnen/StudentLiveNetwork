@@ -83,6 +83,8 @@
     border-color: white !important;
     background-color: transparent !important;
     color: white !important;
+    font-family: "josefin sans" !important;
+    font-size: 25px !important;
     margin-top: 20px;
 }
 .mybtn:hover {
@@ -93,29 +95,102 @@
 }
 #showCaseDiv {
     transition: background-color 300ms ease-in-out;
-    background-image: url("../Image/Education2.jpg"); 
+    background-image: url("../Image/Books.jpg"); 
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 .imgShowcase {
     /*background-image: url("../Image/company.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(90deg, #296d80, #32afd2);
+    background-color:  #1171a9;
     height: auto
+    
 }
 #formContainer {
     background-color: rgba(255, 255, 255, 1);
     color: black !important;
     width: 60%;
     padding: 8%;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-radius: 100px;
 }
 #listShowCase {
     font-family: "source sans pro extralight" !important;
     font-size: 2em;
+}
+.btnEnroll {
+    background-color: white !important;
+    color: black !important;
+    font-size: 25px;
+    border-radius: 30px !important;
+    font-family: "josefin sans" !important;
+    position: relative;
+    top: 30px;
+    left: 89px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+.btnEnroll:hover {
+    background-image: linear-gradient(90deg, #296d80, #32afd2) !important;
+    color: white !important;
+    border-color: white !important;
+}
+#btnSubmit {
+    margin-left: 60%;
+    margin-top: 30px;
+    width: 220px;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    border-radius: 30px;
+    font-family: "josefin sans" !important;
+    transition: background-image 300ms ease-in-out;
+}
+.rug {
+    
+    background-size: cover;
+    background-postion: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -100px;
+    z-index: 1;
+}
+#btnSubmit:hover {
+    background-image: linear-gradient(90deg, #296d80, #32afd2);
+    color: white !important;
+}
+.teacherSec {
+    margin-top: 18% !important;
+    margin-right: 5% !important;
+}
+.teacherPar {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#leftContent {
+    background-color: rgba(17, 113, 169, 0.7);
+    height: 66.8vh;
+    transition: background-color 600ms ease-in-out;
+}
+.rightContent {
+   
+}
+.newList {
+    margin-top: 10%;
+}
+.newList li {
+    background-color: transparent;
+    border-bottom-color: white;
+    font-size: 1.9em !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.newList li span {
+    margin-left: 10px;
 }
 @media screen and (max-width: 767.98px) {
 

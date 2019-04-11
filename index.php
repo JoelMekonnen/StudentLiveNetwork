@@ -42,7 +42,7 @@
                            <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#menu">
                                <span class = "far fa-align-right fa-2x"></span>
                            </button>
-                           <div class = "navbar-brand myBrand"><h1 class = "h1">YTA Schools</h1></div>
+                           <div class = "navbar-brand myBrand"><h1 class = "h1">Student Live Network</h1> </div>
                            <div class = "collapse navbar-collapse" id = "menu">
                                <ul class = "navbar-nav ml-auto">
                                    <li class = "nav-item">
@@ -90,14 +90,18 @@
                        <div class = "row justify-content-center firstContent">
                            <div class = "col-lg-8 col-md-8 col-sm-8 col-xs-8 my-auto">
                                <div class = "row justify-content-center">
-                                 <div class = "h1 headerWelcome">Welcome To YTA Schools</div>
-                               </div>
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                   <img src = "Image/SLN.png" class = "img-fluid">
+                                </div>
+                              </div>
                                <div class = "row justify-content-center">
                                     <div class = "CTA1">
                                             <button type = "button" class = "btn btn-primary" id = "btn1"><i class = "fas fa-play-circle" style="margin-right:10px;"></i>Get Started</button>
                                             <button type = "button" class = "btn btn-danger" id = "btn2"><i class = "fas fa-arrow-alt-right" style="margin-right:10px;"></i>Log in</button>
+                                            
                                     </div>
                                </div>
+                              
                            </div>
                        </div>
                    </div>
@@ -149,6 +153,7 @@
                                        <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                            <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                        </li>
+                                       <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                    </ul>
                                    <style>
                                        #france {
@@ -180,6 +185,7 @@
                                        <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                            <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                        </li>
+                                       <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                    </ul>
                                    <style>
                                        #addis {
@@ -209,6 +215,7 @@
                                            <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                                <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                            </li>
+                                           <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                        </ul>
                                        <style>
                                            #Hawaii {
@@ -242,6 +249,7 @@
                                        <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                            <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                        </li>
+                                       <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                    </ul>
                                    <style>
                                        #france {
@@ -273,6 +281,7 @@
                                        <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                            <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                        </li>
+                                       <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                    </ul>
                                    <style>
                                        #addis {
@@ -302,6 +311,7 @@
                                            <li style="list-style-type:none; font-family: 'source sans pro extralight' !important; font-style:italic !important;">
                                                <i class = "far fa-plus-circle fa-1x" style="margin-right: 10px;"></i>Add to wishlist<br>
                                            </li>
+                                           <button type = "button" class = "btn btn-primary btnEnroll"><i class = "fas fa-arrow-alt-from-left"></i> Enroll</button>
                                        </ul>
                                        <style>
                                            #Hawaii {
@@ -321,34 +331,32 @@
             </div>
         
             <div class = "row justify-content-center">
-                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:100vh; background-color:white; color: black;">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
                      <!-- next we are going  to add the Courses -->
                      <div class = "row justify-content-center">
                          <h1 class = "h1" style='font-family:"roboto material black"; font-style:italic; font-weight:bold;'>
                              Schools Facilities and Services
                          </h1>
                      </div>
-                     <div class = "row">
-                        <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 parallax-window" data-parallax="scroll" data-image-src="../Image/Education2.jpg" id = "showCaseDiv" style="background-color:#3a89b7;height:70vh;padding:0px !important;margin:0px;">
-                    
-                        </div>
-                     </div>
-                     <div class = "row">
-                         <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#296d80; color: white;">
-                             <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
-                                    <div class = "fas fa-building fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
-                                    <div class = "h5 headerFont" style="text-align:center; width:100%;">Administration and student services</div>
-                                    <ul class = "myListStyle">
-                                        <li>universities adminstration</li>
-                                        <li>provides appropriate information</li>
-                                        <li>the universties president</li>
-                                        <li>academic staff</li>
-                                        <li>external affairs office</li>
-                                        <button type = "button"  onclick='myshowCaseDiv("admin")' class = "btn btn-outline-dark mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
-                                    </ul>
-                             </div>
-                         </div>
-                         <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#0889ad; color: white;">
+                   </div>
+                </div>
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 " id = "showCaseDiv">
+                     <div class = "row effect">
+                            <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#296d80; color: white;">
+                                <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
+                                       <div class = "fas fa-building fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
+                                       <div class = "h5 headerFont" style="text-align:center; width:100%;">Administration and student services</div>
+                                       <ul class = "myListStyle">
+                                           <li>universities adminstration</li>
+                                           <li>provides appropriate information</li>
+                                           <li>the universties president</li>
+                                           <li>academic staff</li>
+                                           <li>external affairs office</li>
+                                           <button type = "button"  onclick='myshowCaseDiv("admin")' class = "btn btn-outline-dark mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
+                                       </ul>
+                                </div>
+                            </div>
+                            <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#0889ad; color: white;">
                                 <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
                                        <div class = "fas fa-book fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
                                        <div class = "h5 headerFont" style="text-align:center; width:100%;">Library and doucmentation</div>
@@ -360,59 +368,79 @@
                                            <li>provide informations</li>
                                            <button type = "button"  onclick='myshowCaseDiv("library")' class = "btn btn-outline-dark mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
                                        </ul>
-                        </div>
-                     </div>
-                     <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#1171a9; color: white;">
+                               </div>
+                            </div>
+                            <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#1171a9; color: white;">
+                                <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
+                                       <div class = "fas fa-user-graduate fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
+                                       <div class = "h5 headerFont" style="text-align:center;width:100%;">student council and leadership</div>
+                                       <ul class = "myListStyle">
+                                           <li>represent students</li>
+                                           <li>host events</li>
+                                           <li>host competition</li>
+                                           <li>make decisions</li>
+                                           <li>external affairs office</li>
+                                           <button type = "button" onclick='myshowCaseDiv("student")' class = "btn btn-outline-dark mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
+                                       </ul>
+                              </div>
+                           </div>
+                           <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#32afd2; color:white;">
                             <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
-                                   <div class = "fas fa-user-graduate fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
-                                   <div class = "h5 headerFont" style="text-align:center;width:100%;">student council and leadership</div>
-                                   <ul class = "myListStyle">
-                                       <li>represent students</li>
-                                       <li>host events</li>
-                                       <li>host competition</li>
-                                       <li>make decisions</li>
-                                       <li>external affairs office</li>
-                                       <button type = "button" onclick='myshowCaseDiv("student")' class = "btn btn-outline-dark mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
-                                   </ul>
+                                   <div class = "fas fa-shield-alt fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
+                                   <div class = "h5 headerFont" style="text-align:center;width:100%;">Security and other services</div>
+                                   <div style = "display:block;">
+                                    <ul  class = "myListStyle">
+                                        <li>handle security</li>
+                                        <li>provide lookout</li>
+                                        <li>work at events</li>
+                                        <li>Help students</li>
+                                        <li>Community service</li>
+                                        <button type = "button" onclick='myshowCaseDiv("security")' class = "btn btn-outline mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
+                                     </ul>
+                                   </div> 
+                                   <br>       
+                     </div>
+                    </div>
+            </div>
+            <div class = "row justify-content-center">
+                    <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6" id = "leftContent" style="color: white; display:none;">
+                        <div class = "row h1 justify-content-center" style = "color:white; margin-top: 20px; font-family: Gabriola !important;" id = "dynamicHeader">Dummy position holder</div> 
+                          <div class = "list-group newList" style="padding-left:10%;padding-right:10%">
+                            <div id = "imgDiv" width="20%" height="15%"></div>
+                            <li class = "list-group-item"><i class = "fas fa-male"></i><span id = "manager"></span></li>
+                            <li class = "list-group-item"><i class = "fas fa-phone-square"></i><span id = "telephone"></span></li>
+                            <li class = "list-group-item"><i class = "fas fa-at"></i><span id = "email"></span></li>
+                            <li class = "list-group-item"><i class="fab fa-facebook" aria-hidden="true"></i><span id = "fb"></span></li>
+                        </div>
+                        <div class = "row">
+
+                        </div>
                     </div>
                 </div>
-                <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-6" style="background-color:#32afd2; color:white;">
-                        <div class = "row justify-content-center" style="padding:5%; margin-left:5%;">
-                               <div class = "fas fa-shield-alt fa-3x" style="display:block; width:100%; margin-left:43%;"></div><br>
-                               <div class = "h5 headerFont" style="text-align:center;width:100%;">Security and other services</div>
-                               <div style = "display:block;">
-                                <ul  class = "myListStyle">
-                                    <li>handle security</li>
-                                    <li>provide lookout</li>
-                                    <li>work at events</li>
-                                    <li>Help students</li>
-                                    <li>Community service</li>
-                                    <button type = "button" onclick='myshowCaseDiv("security")' class = "btn btn-outline mybtn"><i class = "fas fa-arrow-alt-circle-right" style="margin-right:10px;"></i>Connect</button>
-                                 </ul>
-                               </div> 
-                               <br>       
-                 </div>
-            </div>
+          </div>
             <!-- The next section is going to be a creative section Here I am going to introduce Networks and Hubs With Icons-->
-        </div>
+ 
         <div class = "row justify-content-center" style="color:black; height:auto;">
             <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class = "row justify-content-center" style="margin-top: 20px;">
-                        <h1 class = "h1" style ='font-family:"roboto material black"; font-style:italic; font-weight:bold;'>Networks and hubs</h1>
+                <div class = "row justify-content-center">
+                    <div class = "col-lg-3 col-sm-3 col-md-3 col-xs-3">
+                            <img src = "Image/SLN.png" class = "img-fluid">
+                    </div>
                 </div>
                 <div class = "row justify-content-center imgShowcase">
                         <div class = "col-lg-6 col-md-6 col-sm-8 col-xs-8">
+                                
                             <div class = "row justify-content-center">
                                     <div id = "formContainer">
                                             <form>
                                                     <div class = "form-group">
-                                                        <label for = "username" style="margin-left:40%; margin-top: 20px;"> <i class = "fas fa-user-circle fa-3x"></i></label>   
-                                                        <input type = "text" id = "username" class = "form-control">
-                                                        <label for = "Email" style="margin-left:40%;margin-top: 20px;"><i class = "fas fa-at fa-3x"></i></label>
-                                                        <input type = "email" class = "form-control">
-                                                        <label for = "password" style="margin-left:40%; margin-top: 20px;"><i class = "fas fa-lock fa-3x"></i>  </label>
-                                                        <input type = "password" id ="password" class = "form-control">
-                                                        <button type = "button" class = "btn btn-primary">Submit</button>
+                                                        <label for = "username" style="margin-left:40%; margin-top: 20px;"> <i class = "far fa-user-circle fa-3x"></i></label>   
+                                                        <input type = "text" id = "username" class = "form-control" placeholder="username">
+                                                        <label for = "Email" style="margin-left:40%;margin-top: 20px;"><i class = "far fa-at fa-3x"></i></label>
+                                                        <input type = "email" class = "form-control" placeholder="Email">
+                                                        <label for = "password" style="margin-left:40%; margin-top: 20px;"><i class = "far fa-lock fa-3x"></i>  </label>
+                                                        <input type = "password" id ="password" class = "form-control" placeholder="password">
+                                                        <button type = "button" class = "btn btn-primary" id = "btnSubmit"><i class = "far fa-user-check"></i> Signup</button>
                                                     </div>
                                             </form>
                                        </div>
@@ -436,7 +464,33 @@
                         </div>
                        
                 </div>
-
+                <div class = "sectionDiv row">
+                    <img src = "Image/sectionDiiv.png" style="margin-left:25%; position:relative; top: -9px; z-index:-1;" class = "img-fluid">
+                </div>
+                <div class = "row" style="height: auto;">
+                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src = "Image/laptop.png" class = "img fluid" style = "padding: 10%;">
+                    </div>
+                    <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class = "row justify-content-center myPgh">
+                                <h3 class = "h3 headerWelcome teacherSec"> join an online community of teachers </h3>
+                                <p class = "teacherPar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget augue mollis, sodales magna vitae, interdum arcu. Sed ligula metus, semper eget elit nec, suscipit porta diam. Proin porttitor, nibh et accumsan luctus, tortor dolor iaculis nulla, quis tincidunt quam arcu a enim. Etiam commodo sem dignissim faucibus viverra. Cras sollicitudin arcu enim, vitae molestie ex rutrum nec. Proin varius, lorem non lacinia hendrerit, arcu ante imperdiet arcu, vitae aliquam sapien felis non eros. Mauris luctus magna vel pulvinar dignissim. In et est tristique, porttitor nunc vitae, fermentum nisi. Integer mauris tortor, commodo eu nisi vitae, pulvinar pharetra velit. Sed auctor nunc at nunc ornare sagittis.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row" style="background-color:#ededed;">
+                        <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class = "row justify-content-center myPgh">
+                                        <h3 class = "h3 headerWelcome teacherSec"> Study, play, relax and have fun</h3>
+                                        <p class = "teacherPar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget augue mollis, sodales magna vitae, interdum arcu. Sed ligula metus, semper eget elit nec, suscipit porta diam. Proin porttitor, nibh et accumsan luctus, tortor dolor iaculis nulla, quis tincidunt quam arcu a enim. Etiam commodo sem dignissim faucibus viverra. Cras sollicitudin arcu enim, vitae molestie ex rutrum nec. Proin varius, lorem non lacinia hendrerit, arcu ante imperdiet arcu, vitae aliquam sapien felis non eros. Mauris luctus magna vel pulvinar dignissim. In et est tristique, porttitor nunc vitae, fermentum nisi. Integer mauris tortor, commodo eu nisi vitae, pulvinar pharetra velit. Sed auctor nunc at nunc ornare sagittis.
+                                        </p>
+                                </div>
+                         </div>
+                         <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img src = "Image/WPF.png" class = "img-fluid" style="padding:10%";>
+                            </div>
+                </div>
         </div>
      <script src = "JS/jquery.min.js"></script>
      <script src = "JS/bootstrap.min.js"></script>
