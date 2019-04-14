@@ -1,0 +1,32 @@
+.discoverBranch {
+    margin-top: 20px;
+    font-family: "droid serif" !important;
+}
+.myListgroup {
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;   
+}
+.list-group-item i {
+    margin-right: 5px;
+}
+.myListgroup li {
+    font-family: "source sans pro extralight" !important;
+    padding-top: 3%;
+    paddin-bottom: 3%;
+    color: white;
+    border-style: none;
+}
+.myListgroup li:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.discoverPara {
+    padding: 10%;
+
+}
+.discoverPara p {
+    text-align: center;
+    margin-left: 5%;
+}

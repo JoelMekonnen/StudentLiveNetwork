@@ -42,14 +42,14 @@
                            <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#menu">
                                <span class = "far fa-align-right fa-2x"></span>
                            </button>
-                           <div class = "navbar-brand myBrand"><h1 class = "h1">Student Live Network</h1> </div>
+                           <div class = "navbar-brand myBrand"><h1 class = "h1">Waliff Education</h1> </div>
                            <div class = "collapse navbar-collapse" id = "menu">
                                <ul class = "navbar-nav ml-auto">
                                    <li class = "nav-item">
                                        <a class = "nav-link myLink" href = "#">  <i class = "far fa-home"style="padding-right:3px;"></i> Home </a>
                                    </li>
                                    <li class = "nav-item">
-                                       <a class = "nav-link myLink" href = "#"> <i class = "far fa-code-branch" style="padding-right:3px;"></i>Branches</a>
+                                       <a class = "nav-link myLink" href = "branches.php"> <i class = "far fa-code-branch" style="padding-right:3px;"></i>Branches</a>
                                    </li>
                                    <li class = "nav-item">
                                        <a class = "nav-link myLink" href = "#"> <i class = "far fa-share" style="padding-right:3px;"></i>Share </a>
@@ -64,6 +64,7 @@
                                        <a class = "nav-link myLink" href = "#"><i class = "fab fa-telegram-plane" style="padding-right:3px;"></i> contact us </a>
                                    </li>
                                </ul>
+                             
                                <style>
                                    .myLink {
                                        margin-left: 20px;
@@ -90,8 +91,14 @@
                        <div class = "row justify-content-center firstContent">
                            <div class = "col-lg-8 col-md-8 col-sm-8 col-xs-8 my-auto">
                                <div class = "row justify-content-center">
-                                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                   <img src = "Image/SLN.png" class = "img-fluid">
+                                 <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                     <div class = "row justify-content-center"> 
+                                            <img src = "Image/wlogo.png" class = "img-fluid">
+                                     </div>
+                                     <div class = "row justify-content-center">
+                                         <h3  class = "h3" style='font-family:"droid serif" !important; margin-bottom:30px; '> Waliff Education Share Company </h3>
+
+                                     </div>
                                 </div>
                               </div>
                                <div class = "row justify-content-center">
